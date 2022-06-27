@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'oldlondon';
+    src: url('fontes/Olondona.otf') format('opentype'), url('fontes/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    /* 
+    - opentype (otf)
+    - truetype  (ttf)
+    */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'oldlondon';
+    font-size: 3em;
+    font-weight: normal;
+
+}

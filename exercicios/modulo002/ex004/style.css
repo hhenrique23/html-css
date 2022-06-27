@@ -1,0 +1,52 @@
+*/{
+    margin: 0%;
+    padding: 0;
+    font-weight: 400;
+
+}
+
+body{
+    background-color: #90FC90;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h1{
+    color: #407040;
+}
+
+h2{
+    color: #64B064;
+}
+
+.basico{
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: yellow;
+    font-weight: bold;
+}
+
+.avançado{
+    color: red;
+    font-weight: bold;
+}
+
+.destaque{
+    background-color: #c5c56c70;
+}

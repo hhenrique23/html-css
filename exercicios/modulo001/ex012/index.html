@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reproodução de videos</title>
+</head>
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>este video esta hospedado no meu proprio servidor</p>
+
+    <video controls poster="imagens/pexels-emiliano-arano-1298684.jpg" width="1000"> <!--POSTER é a tag usada para por thumbnails nos videos-->
+        <source src="midia/Meu-Video.m4v" type="video/mp4">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+        <p>seu navegador não suporta esse video.</p> 
+     </video>
+
+     <h1>inserindo videos do youtube (mais barato)</h1>
+     <iframe width="560" height="400" src="https://www.youtube.com/embed/laCxd4uugno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
